@@ -3,6 +3,7 @@ public class Employee {
 	String lastName;
 	int age;
 	
+	
 	public void employeeDetails() {
 		System.out.println("First name:"+ firstName + "\n" + "Last name:" + lastName +"\n"+ "Age" + age);
 	}
