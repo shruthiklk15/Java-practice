@@ -1,12 +1,8 @@
+
 public class Employee {
 	String firstName;
 	String lastName;
 	int age;
-	
-	
-	public void employeeDetails() {
-		System.out.println("First name:"+ firstName + "\n" + "Last name:" + lastName +"\n"+ "Age" + age);
-	}
 	
 	public static void main(String[] args) {
 		Employee employee1 = new Employee();
@@ -22,5 +18,9 @@ public class Employee {
 		employee2.age = 22;
 		
 		employee2.employeeDetails();
+	}
+
+	private void employeeDetails() {
+		System.out.println("First name:" +firstName+"\n"+ "Last name:" +lastName+"\n"+ "Age:" +age+ "\n");
 	}
 }
