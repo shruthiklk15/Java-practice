@@ -11,6 +11,7 @@ class Program5 {
         emp_name = "Shruthi";
         emp_grade = 'A';
         emp_salary = 20000;
+        emp_salary = 30000; //re-initialization
 
         // print the details
 
