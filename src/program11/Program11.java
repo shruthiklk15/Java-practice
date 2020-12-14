@@ -12,7 +12,7 @@ class Program11{
 
         b = a++ + ++a;
         System.out.println("a"+a); //2
-        System.out.println("b"+b);  //output 2
+        System.out.println("b"+b);  //2
 
 // ............................................
 
@@ -24,8 +24,8 @@ class Program11{
 // ............................................
 
         f = e++ + ++e  + e++ + ++e + ++e + e++ + e++ + ++e + e++ ;
-        System.out.println("e " +e); //
-        System.out.println("f " +f); //
+        System.out.println("e " +e); //9
+        System.out.println("f " +f); //40
 // .............................................
 
         g=g++;
