@@ -16,6 +16,5 @@ class MainClass25
         System.out.println("x value before update" +object1.x);
         object1.update_x(23);
         System.out.println("x value after updating using method" +object1.x);
-
     }
 }

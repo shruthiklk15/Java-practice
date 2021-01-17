@@ -6,7 +6,7 @@ class Program21{
         while(i<=10) {
             if(amt <= acc_bal ) {
                 acc_bal = acc_bal - amt;
-                System.out.println("withdraw success " +acc_bal);
+                System.out.println("withdraw success of Rupees " +acc_bal);
                 i++;
             }
             else{
