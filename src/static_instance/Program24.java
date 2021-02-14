@@ -17,5 +17,9 @@ class MainClass24
         System.out.println("y value is"  + newObject.y); 
         newObject.y=20;
         System.out.println("y value after updating is"  + newObject.y); 
+
+        System.out.println("-----------"); 
+
+        System.out.println("x value is"  + newObject.x); 
     }
 }
